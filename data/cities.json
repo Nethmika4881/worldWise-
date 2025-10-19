@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": "a88d",
+      "cityName": "Taywarah",
+      "country": "Afghanistan",
+      "emoji": "🇦🇫",
+      "date": "2025-10-19",
+      "notes": "e",
+      "position": {
+        "lat": 33.247875947924385,
+        "lng": 64.42382812500001
+      }
+    },
+    {
+      "id": "fd0f",
+      "cityName": "Mangrul Pir",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-10-19",
+      "notes": "2",
+      "position": {
+        "lat": 20.4270128142574,
+        "lng": 77.38769531250001
+      }
+    }
+  ]
+}
