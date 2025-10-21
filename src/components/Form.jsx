@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import styles from "./Form.module.css";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "react-datepicker/dist/react-datepicker.css";
 import Button from "./Button";
 import { useURLPosition } from "../hooks/useUrlPosition";

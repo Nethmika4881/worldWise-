@@ -23,6 +23,42 @@
         "lat": 20.4270128142574,
         "lng": 77.38769531250001
       }
+    },
+    {
+      "id": "9944",
+      "cityName": "Balmur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-10-21",
+      "notes": "ljblj",
+      "position": {
+        "lat": 16.425547506916736,
+        "lng": 78.53027343750001
+      }
+    },
+    {
+      "id": "8757",
+      "cityName": "Sirvar",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-10-21",
+      "notes": "",
+      "position": {
+        "lat": 16.04581345375218,
+        "lng": 76.90429687500001
+      }
+    },
+    {
+      "id": "3d93",
+      "cityName": "Badin",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2025-10-21",
+      "notes": "",
+      "position": {
+        "lat": 24.56710835257599,
+        "lng": 68.81835937500001
+      }
     }
   ]
 }
