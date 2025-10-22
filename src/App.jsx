@@ -16,6 +16,7 @@ import {
 } from "react-router-dom";
 import { CityProvider } from "./contexts/CityContext";
 import { AuthProvider } from "./hooks/FakeAuthContext";
+import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
   const router = createBrowserRouter([
@@ -25,7 +26,11 @@ function App() {
     },
     {
       path: "/app",
-      element: <AppLayout />,
+      element: (
+        <ProtectedRoute>
+          <AppLayout />
+        </ProtectedRoute>
+      ),
       children: [
         {
           index: true,
