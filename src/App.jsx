@@ -15,6 +15,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { CityProvider } from "./contexts/CityContext";
+import { AuthProvider } from "./hooks/FakeAuthContext";
 
 function App() {
   const router = createBrowserRouter([
@@ -102,7 +103,9 @@ function App() {
 
   return (
     <CityProvider>
-      <RouterProvider router={router} />
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
     </CityProvider>
   );
 }

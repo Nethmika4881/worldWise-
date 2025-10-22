@@ -1,10 +1,4 @@
-import {
-  useContext,
-  createContext,
-  useEffect,
-  useState,
-  useReducer,
-} from "react";
+import { useContext, createContext, useEffect, useReducer } from "react";
 
 const CityContext = createContext();
 
